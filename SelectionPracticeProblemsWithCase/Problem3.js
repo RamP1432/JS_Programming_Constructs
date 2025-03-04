@@ -17,5 +17,5 @@ function numberType(number){
     }
 }
 const readline=require('readline-sync');
-let num=parseInt(readline.question("Enter the number..."));
-console.log(numberType(num));
+let num=parseInt(readline.question("Enter the number...")); //taking input from user
+console.log(numberType(num));//printing out put on console.
