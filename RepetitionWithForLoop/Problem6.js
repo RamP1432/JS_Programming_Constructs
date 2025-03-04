@@ -25,4 +25,4 @@ function primeFactors(N) {
 
 const readline=require('readline-sync');
 let N=parseInt(readline.question("Enter your number..."));//taking input from user.
-console.log(`Prime factors of ${N}:`, primeFactors(N));
+console.log(`Prime factors of ${N}:`, primeFactors(N));//Printing the Prime factor of given number.
